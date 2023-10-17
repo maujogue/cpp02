@@ -6,7 +6,7 @@
 /*   By: maujogue <maujogue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 14:10:33 by maujogue          #+#    #+#             */
-/*   Updated: 2023/10/11 15:12:48 by maujogue         ###   ########.fr       */
+/*   Updated: 2023/10/17 10:56:16 by maujogue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,5 +73,5 @@ int Fixed::toInt( void ) const
 
 float Fixed::toFloat( void ) const
 {
-	return (static_cast<float>(this->_nb) / (1 << _fracBits));
+	return (static_cast<float>(this->_nb) / (1 << _fracBits)); //multiplie par 2 puissance fracbits
 }

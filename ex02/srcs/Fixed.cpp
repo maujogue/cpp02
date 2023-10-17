@@ -6,7 +6,7 @@
 /*   By: maujogue <maujogue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 14:10:33 by maujogue          #+#    #+#             */
-/*   Updated: 2023/10/11 17:07:06 by maujogue         ###   ########.fr       */
+/*   Updated: 2023/10/17 11:08:34 by maujogue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,14 +119,14 @@ Fixed & Fixed::operator--( void ) {
 Fixed Fixed::operator++( int ) {
 	Fixed temp(*this);
 
-	temp._nb++;
+	this->_nb++;
 	return (temp);
 }
 
 Fixed Fixed::operator--( int ) {
 	Fixed temp(*this);
 
-	temp._nb--;
+	this->_nb--;
 	return (temp);
 }
 

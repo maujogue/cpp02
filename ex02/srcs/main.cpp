@@ -6,7 +6,7 @@
 /*   By: maujogue <maujogue@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 14:13:34 by maujogue          #+#    #+#             */
-/*   Updated: 2023/10/11 17:17:35 by maujogue         ###   ########.fr       */
+/*   Updated: 2023/10/17 11:07:33 by maujogue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int main( void ) {
 	std::cout << "a++ -->" << a++ << std::endl;
 	std::cout << "a = " << a << std::endl;
 	std::cout << "a-- -->" << a-- << std::endl;
+	std::cout << "a = " << a << std::endl;
 	std::cout << std::endl;
 	
 	std::cout << "[2] Testing min/max" << std::endl;
